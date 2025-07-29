@@ -1,0 +1,19 @@
+// btn base
+.btn {
+  background: none;
+  cursor: pointer;
+  &:focus {
+    border: 1px solid $neutral-900;
+  }
+}
+
+.btn-on {
+  background: $neutral-900;
+  color: $neutral-white;
+}
+
+@media (max-width: 768px) {
+  .cta-btn-group {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,20 @@
+.breadcrumb {
+  margin-bottom: 12px;
+  &-item-link {
+    font-weight: $fw-500;
+    color: $neutral-600;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    &-item-link {
+      font-size: 14px;
+    }
+  }
+  .symbol-2::before {
+    content: "/";
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,19 @@
+.pagination {
+  width: 33.3333%;
+  margin: 0 auto;
+  .page-item-link {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    padding: 8px 15px;
+    &:hover {
+      background-color: $neutral-100;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+.product-list-content {
+  padding-top: 32px;
+  margin-bottom: 48px;
+  .title {
+    margin: 24px 0;
+    padding: 7px 0;
+    font-weight: $fw-700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list-content {
+    padding-top: 16px;
+    margin-bottom: 24px;
+    .title {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+  }
+}
+
+.aside-list {
+  padding-right: 24px;
+  .aside-item {
+    margin-bottom: 20px;
+    &-link {
+      display: block;
+      padding: 8px 0;
+      font-weight: $fw-500;
+    }
+  }
+}
+.card {
+  margin-bottom: 48px;
+  &-img {
+    margin-bottom: 12px;
+  }
+  &-title-link {
+    display: block;
+    font-weight: $fw-700;
+    margin-bottom: 4px;
+    line-height: 1.2;
+  }
+  &-text {
+    font-weight: $fw-500;
+  }
+}
+
+
+
+

@@ -1,0 +1,149 @@
+.product-detail-main-content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  .img {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-detail-main-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    .img {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.product-intro {
+  margin-bottom: 32px;
+  &-body {
+    .title {
+      font-weight: $fw-700;
+      font-size: 32px;
+      line-height: 1.2;
+      letter-spacing: 0.05em;
+      margin-bottom: 16px;
+    }
+    .price {
+      font-weight: $fw-700;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.05em;
+      color: $primary-400;
+      margin-bottom: 16px;
+      &-discount {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        text-decoration: line-through;
+        color: $neutral-500;
+      }
+    }
+  }
+}
+.product-spec {
+  margin-bottom: 32px;
+  &-color {
+    margin-bottom: 32px;
+    .text {
+      margin-bottom: 8px;
+    }
+    .btn-group {
+      .btn {
+        width: 64px;
+        padding: 0;
+        border: none;
+        color: $neutral-600;
+        &-img {
+          margin-bottom: 4px;
+        }
+        &:focus {
+          border: 1px solid $neutral-900;
+        }
+      }
+    }
+  }
+  &-size {
+    margin-bottom: 48px;
+    .text {
+      margin-bottom: 8px;
+    }
+    .btn-group {
+      .btn {
+        width: 160px;
+        padding: 12px 0;
+        border: 1px solid $neutral-300;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        font-weight: $fw-500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.05em;
+        &:focus {
+          border: 1px solid $neutral-900;
+        }
+      }
+    }
+    .note {
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      color: $danger-300;
+      margin-bottom: 48px;
+    }
+    .cta-btn-group {
+      .btn {
+        width: 80%;
+        text-align: center;
+        padding: 12px 0;
+        font-weight: $fw-500;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        border: 1px solid $neutral-900;
+        border-radius: 4px;
+        &:focus {
+          background: $neutral-900;
+          color: $neutral-white;
+        }
+      }
+      .icon {
+        font-size: 24px;
+        padding: 12px;
+      }
+    }
+  }
+  &-note {
+    .accordion {
+      border-bottom: 1px solid $neutral-300;
+      padding: 12px 0;
+      &-title {
+        font-weight: $fw-500;
+        margin-bottom: 4px;
+      }
+      &-text {
+        color: $neutral-600;
+      }
+    }
+  }
+}
+.product-detail-extra-content {
+  padding: 48px 0;
+  margin-bottom: 40px;
+  .title {
+    font-weight: $fw-700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+  .card {
+    &-title {
+      font-weight: $fw-700;
+      line-height: 1.2;
+    }
+    &-price {
+      font-weight: $fw-500;
+    }
+  }
+}
+
